@@ -2,10 +2,10 @@
 import axios from 'axios';
 
 // Replace with your Alchemy API key:
-const apiKey = "demo";
-const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${apiKey}/getNFTs/`;
+const apiKey = "cTSytxgRrWftj7pY68_Gx7TDDdAU76TG";
+const baseURL = `https://polygon-mainnet.g.alchemy.com/v2/cTSytxgRrWftj7pY68_Gx7TDDdAU76TG/getNFTs/`;
 // Replace with the wallet address you want to query for NFTs:
-const ownerAddr = "0xF5FFF32CF83A1A614e15F25Ce55B0c0A6b5F8F2c";
+const ownerAddr = "0xC5633f7E465eBB1A9F855F93047134ef1ca61E49";
 
 // Construct the axios request:
 var config = {
