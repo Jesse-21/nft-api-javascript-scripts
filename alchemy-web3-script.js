@@ -2,7 +2,7 @@
 import { createAlchemyWeb3 } from "@alch/alchemy-web3";
 
 // Replace with your Alchemy api key:
-const apiKey = "demo";
+const apiKey = "QOfdn-WnIzX6rBPLHArcAumbWXnnjrUI";
 
 // Initialize an alchemy-web3 instance:
 const web3 = createAlchemyWeb3(
@@ -10,7 +10,7 @@ const web3 = createAlchemyWeb3(
 );
 
 // The wallet address we want to query for NFTs:
-const ownerAddr = "0xC33881b8FD07d71098b440fA8A3797886D831061";
+const ownerAddr = "0xC5633f7E465eBB1A9F855F93047134ef1ca61E49";
 const nfts = await web3.alchemy.getNfts({
   owner: ownerAddr
 })
@@ -34,8 +34,8 @@ console.log("===");
 // Fetch metadata for a particular NFT:
 console.log("fetching metadata for a crypto coven NFT...");
 const response = await web3.alchemy.getNftMetadata({
-  contractAddress: "0x5180db8F5c931aaE63c74266b211F580155ecac8",
-  tokenId: "1590"
+  contractAddress: "0x23A4Aa802ec83E8475ce28c85C8034C1Ac916934",
+  tokenId: "2"
 })
 
 // Uncomment this line to see the full api response:
